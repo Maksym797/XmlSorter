@@ -11,9 +11,6 @@ namespace XmlSorter
         {
             //TODO add args validation with print instruction service
 
-            //args = new string[] { "./Files/Solution.xml", "RootComponents", "RootComponent", "schemaName,type" };
-            //args = new string[] { "./Files/Solution.xml", "MissingDependencies", "MissingDependency", "Required/type,Dependent\\type,Required/schemaName" };
-
             //TODO OutFoRange
             if (args == null || args.Length != 4)
             {
